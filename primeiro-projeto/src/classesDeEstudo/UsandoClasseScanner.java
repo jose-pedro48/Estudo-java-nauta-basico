@@ -1,3 +1,5 @@
+package classesDeEstudo;
+
 import java.util.Scanner;
 
 public class UsandoClasseScanner {

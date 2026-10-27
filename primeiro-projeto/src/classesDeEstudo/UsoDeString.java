@@ -1,3 +1,5 @@
+package classesDeEstudo;
+
 public class UsoDeString {
     public static void main(String[] args) {
         String nome = "Pedro";

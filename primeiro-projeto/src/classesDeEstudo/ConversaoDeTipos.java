@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+package classesDeEstudo;//import java.util.Scanner;
 
 public class ConversaoDeTipos {
     public static void main(String[] args) {
