@@ -64,13 +64,11 @@ public class EstruturaCondicional {
         }
         System.out.println("==============================================");
 
-        /*
-         Expressão Condicional Ternária
-         É uma forma compacta de escrever um if-else que retorna um valor:
-         String resultado = (condicao)? valorVerdadeiro : valorFalso;
-         onde? é if, : é else usado em condição simples.
-         */
-        //Mensagem = (idade ≥ 18)? " Você é maior de idade. ": "Você é menor de idade. ";
+        // Expressão Condicional Ternária
+        // É uma forma compacta de escrever um if-else que retorna um valor:
+        // String resultado = (condição)? valorVerdadeiro: valorFalso;
+        // Onde? É if, : é else usado em condição simples.
+        // Mensagem = (idade ≥ 18)? " Você é maior de idade. ": "Você é menor de idade. ";
         boolean tenhoDinheiro = true;
         String mensagem = (tenhoDinheiro) ? "Vamos pedir um ifood " : "Vamos comer o que tem em casa!";
         System.out.println(mensagem);
