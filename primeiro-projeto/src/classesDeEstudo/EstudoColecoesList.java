@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class EstudoColacoesList {
+public class EstudoColecoesList {
     public static void main(String[] args) {
         // Criando a lista de compra
         List<String> listaDeCompra = new ArrayList<>();
@@ -63,6 +63,7 @@ public class EstudoColacoesList {
         //Limpando a lista de compra
         listaDeCompra.clear();
         System.out.println("Eu apaguei a lista de compra? " + listaDeCompra.isEmpty());
+        System.out.println("-------------------------------------------");
 
         List<String> nomes = List.of("Ana", "Bruno", "Carlos");
         nomes.forEach(nome -> System.out.println(nome));
