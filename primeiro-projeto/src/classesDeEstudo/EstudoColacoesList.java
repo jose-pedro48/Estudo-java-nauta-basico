@@ -1,9 +1,10 @@
 package classesDeEstudo;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class EstudoColacoes {
+public class EstudoColacoesList {
     public static void main(String[] args) {
         // Criando a lista de compra
         List<String> listaDeCompra = new ArrayList<>();
@@ -49,12 +50,27 @@ public class EstudoColacoes {
         System.out.println("O item Abacaxi está na lista? " + contem);
 
         System.out.println("-------------------------------------------");
-        // Limpando a lista de compra
-    //    listaDeCompra.clear();
-    //   System.out.println("Eu apaguei a lista de compra? " + listaDeCompra.isEmpty());
+        /*
+         * EX: List<String> nomes = List.of("Ana", "Bruno", "Carlos");
+         *     nomes.forEach(nome -> System.out.println(nome));
+        */
         System.out.println("-------------------------------------------");
-        // Estrutura do forEach para treinar
+
+        // Estrutura do forEach usando Method Reference para treinar
         listaDeCompra.forEach(System.out::println);
+
+        System.out.println("-------------------------------------------");
+        //Limpando a lista de compra
+        listaDeCompra.clear();
+        System.out.println("Eu apaguei a lista de compra? " + listaDeCompra.isEmpty());
+
+        List<String> nomes = List.of("Ana", "Bruno", "Carlos");
+        nomes.forEach(nome -> System.out.println(nome));
+        System.out.println("#########################################################");
+
+        List<String> listaFeira = Arrays.asList("1-Arroz", "2-Feijão", "3-Macarrão");
+        listaFeira.forEach(System.out::println);
+
 
 
     }
