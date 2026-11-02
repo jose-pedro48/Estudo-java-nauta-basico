@@ -1,4 +1,4 @@
-package classesDeEstudo;
+package javaBasico;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,7 +45,9 @@ public class EstudoHashMap {
         // Mostrando o novo tamanho do Hash
         int tamanhoHashMap1 = alunosNotas.size();
         System.out.println("Novo tamanho HashMap: " + tamanhoHashMap1);
+        System.out.println("-----------------------------------------------");
 
+        // Mostrando os elementos do Hash
         for (String nome : alunosNotas.keySet()) {
             double nota2 = alunosNotas.get(nome);
             System.out.println(nome + " - " + nota2 );

@@ -1,4 +1,4 @@
-package classesDeEstudo;
+package javaBasico;
 
 public class PrecedenciaOperadores {
     public static void main(String[] args) {

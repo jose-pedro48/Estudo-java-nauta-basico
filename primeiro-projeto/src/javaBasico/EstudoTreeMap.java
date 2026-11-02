@@ -1,4 +1,4 @@
-package classesDeEstudo;
+package javaBasico;
 
 import java.util.TreeMap;
 

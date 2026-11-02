@@ -1,4 +1,4 @@
-package classesDeEstudo;
+package javaBasico;
 
 import java.util.ArrayList;
 import java.util.Arrays;

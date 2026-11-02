@@ -1,4 +1,4 @@
-package classesDeEstudo;
+package javaBasico;
 
 public class UsoDeString {
     public static void main(String[] args) {
