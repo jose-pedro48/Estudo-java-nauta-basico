@@ -2,7 +2,7 @@ package pooJava.objeto;
 
 public class Casa {
     public static void main(String[] args) {
-        //Criando o objeto(Casa)
+        //Criando(instanciando) o objeto(Casa)
         CriandoObjeto objeto = new CriandoObjeto();
 
         //Inicializando os atributos da classe casa
