@@ -13,25 +13,25 @@ public class PlantaCasa {
         this.numeroQuarto = numeroQuarto;
     }
 
-    public int getMetragem() {
-        return metragem;
-    }
+//    public int getMetragem() {
+//        return metragem;
+//    }
 
     public void setMetragem(int metragem ) {
         this.metragem = metragem;
     }
 
-    public int getNumeroQuarto() {
-        return numeroQuarto;
-    }
-
-    public void setNumeroQuarto(int numeroQuarto) {
-        this.numeroQuarto = numeroQuarto;
-    }
-
-    public PlantaCasa(int metragem) {
-        this.metragem = metragem;
-    }
+//    public int getNumeroQuarto() {
+//        return numeroQuarto;
+//    }
+//
+//    public void setNumeroQuarto(int numeroQuarto) {
+//        this.numeroQuarto = numeroQuarto;
+//    }
+//
+//    public PlantaCasa(int metragem) {
+//        this.metragem = metragem;
+//    }
 
     //Métodos(ou função)
     public void construir(){

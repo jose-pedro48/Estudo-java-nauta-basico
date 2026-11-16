@@ -16,6 +16,7 @@ public class CriandoObjeto {
         System.out.println("Construído com: " + material);
     }
     public void pintar(){
+
         System.out.println("Pintada na cor: " + cor);
     }
 }
