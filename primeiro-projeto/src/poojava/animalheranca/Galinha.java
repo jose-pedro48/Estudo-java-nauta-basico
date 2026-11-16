@@ -1,4 +1,4 @@
-package poojava.animaleranca;
+package poojava.animalheranca;
 
 public class Galinha extends Animal{
     public void ciscar(){

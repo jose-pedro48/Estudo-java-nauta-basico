@@ -1,4 +1,4 @@
-package poojava.animaleranca;
+package poojava.animalheranca;
     //Criando a classe animal
 public class Animal {
     //Criando o Metodo comer, com atributos no parâmetro

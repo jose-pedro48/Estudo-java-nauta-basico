@@ -1,4 +1,4 @@
-package poojava.animaleranca;
+package poojava.animalheranca;
 
 public class Cachorro extends Animal{
     public void latir(){

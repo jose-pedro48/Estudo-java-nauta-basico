@@ -1,6 +1,4 @@
-package poojava.contabancaria;
-
-import javax.swing.*;
+package poojava.contabancariaencapisulamento;
 
 public class ContaBancaria {
     //Usando Encapsulamento na conta banco e acessando a conta

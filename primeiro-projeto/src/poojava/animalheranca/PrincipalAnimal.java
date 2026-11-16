@@ -1,4 +1,4 @@
-package poojava.animaleranca;
+package poojava.animalheranca;
 
 public class PrincipalAnimal {
     public static void main(String[] args) {
