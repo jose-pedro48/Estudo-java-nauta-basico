@@ -1,4 +1,4 @@
-package javaBasico;//import java.util.Scanner;
+package javabasico;//import java.util.Scanner;
 
 public class ConversaoDeTipos {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package pooJava.objeto;
+package poojava.objeto;
 
-import pooJava.objeto.modificadoresAcesso.Construcao;
+import poojava.objeto.modificadoresacesso.Construcao;
 
 public class CriandoObjeto implements Construcao {
 

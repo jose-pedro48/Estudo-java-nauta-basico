@@ -1,4 +1,4 @@
-package pooJava.objeto.modificadoresAcesso;
+package poojava.objeto.modificadoresacesso;
 
 public interface Construcao {
     void construir();

@@ -1,4 +1,4 @@
-package pooJava.objeto.modificadoresAcesso.modificadoresScesso2;
+package poojava.objeto.modificadoresacesso.modificadoresacesso2;
 
 public class PlantaCasa {
     //Atributos(ou características)

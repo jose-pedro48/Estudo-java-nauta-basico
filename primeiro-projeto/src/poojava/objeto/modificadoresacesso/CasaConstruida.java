@@ -1,6 +1,6 @@
-package pooJava.objeto.modificadoresAcesso;
+package poojava.objeto.modificadoresacesso;
 
-import pooJava.objeto.modificadoresAcesso.modificadoresScesso2.PlantaCasa;
+import poojava.objeto.modificadoresacesso.modificadoresacesso2.PlantaCasa;
 
 public class CasaConstruida {
     public static void main(String[] args) {

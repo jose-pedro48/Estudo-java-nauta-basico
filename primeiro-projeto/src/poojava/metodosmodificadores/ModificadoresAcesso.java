@@ -1,4 +1,4 @@
-package pooJava.metodosmodificadores;
+package poojava.metodosmodificadores;
 
 public class ModificadoresAcesso {
     public static void main(String[] args) {

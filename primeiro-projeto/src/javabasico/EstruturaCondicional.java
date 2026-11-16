@@ -1,4 +1,4 @@
-package javaBasico;
+package javabasico;
 
 public class EstruturaCondicional {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package projetosPraticos.projeto01;
+package projetospraticos.projeto01;
 
 public class Principal {
     public static void main(String[] args) {

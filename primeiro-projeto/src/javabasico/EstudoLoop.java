@@ -1,4 +1,4 @@
-package javaBasico;
+package javabasico;
 
 public class EstudoLoop {
     public static void main(String[] args) {
