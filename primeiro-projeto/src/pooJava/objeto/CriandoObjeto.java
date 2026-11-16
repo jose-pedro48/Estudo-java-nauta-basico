@@ -1,5 +1,8 @@
 package pooJava.objeto;
-public class CriandoObjeto {
+
+import pooJava.objeto.modificadoresAcesso.Construcao;
+
+public class CriandoObjeto implements Construcao {
 
     //Atributos(ou características)
     int metragem;
@@ -9,12 +12,14 @@ public class CriandoObjeto {
     String material;
 
     //Métodos(ou função)
+    @Override
     public void construir(){
         System.out.println("Metragem da área: " + metragem);
         System.out.println("Número de quartos: " + numeroQuarto);
         System.out.println("Números de banheiros: " + numeroBanheiros);
         System.out.println("Construído com: " + material);
     }
+     @Override
     public void pintar(){
 
         System.out.println("Pintada na cor: " + cor);

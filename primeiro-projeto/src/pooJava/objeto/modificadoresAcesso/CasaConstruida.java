@@ -8,12 +8,12 @@ public class CasaConstruida {
         PlantaCasa objeto2 = new PlantaCasa(25,4);
 
         //Inicializando os atributos da classe PlantaCasa com construtor e sem construtor
-        objeto2.setMetragem(87);
+        objeto2.setMetragem(82);
         //objeto2.getMetragem();
         //modificando o valor da metragem de 80 para 123
         //objeto2.setMetragem(123);
         //objeto2.getNumeroQuarto();
-        objeto2.numeroBanheiros = 2;
+        objeto2.numeroBanheiros = 1;
         objeto2.material = "Tijolos";
         objeto2.cor = "Azul Claro";
 
