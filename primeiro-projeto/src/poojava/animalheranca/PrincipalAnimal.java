@@ -4,7 +4,7 @@ public class PrincipalAnimal {
     public static void main(String[] args) {
        Cachorro caramelo = new Cachorro();
        caramelo.latir();
-       caramelo.comer("Ração pedriggi");
+       caramelo.comer("Ração pedriggri");
        caramelo.beberAgua("no pote");
        caramelo.dormir("na sala");
 
@@ -14,6 +14,13 @@ public class PrincipalAnimal {
        gertrudez.comer("Milho");
        gertrudez.beberAgua("no Bebedouro");
        gertrudez.dormir("no galinheiro");
+        System.out.println("--------------------------------------------------");
+
+        Lobo selvagem = new Lobo();
+        selvagem.latir();
+        selvagem.comer("um coelho");
+        selvagem.beberAgua("na floresta");
+        selvagem.dormir("na caverna");
 
     }
 }

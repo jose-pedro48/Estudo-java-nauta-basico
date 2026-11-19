@@ -4,7 +4,8 @@ import poojava.polimorfismo.sobrescritametodo.Carro;
 
 public class Principal {
     public static void main(String[] args) {
-        int sabaopo = 1;
+        //Inicializando o metodo
+        int sabaoPo = 1;
         int mamao = 2;
         double arroz = 5.25;
         double macarrao = 2.56;
@@ -12,7 +13,7 @@ public class Principal {
         Integer cenoura = 7;
         Integer melancia = 5;
         //Chamando o metodo int quantidade
-        int total = Calculadora.somar(sabaopo, mamao);
+        int total = Calculadora.somar(sabaoPo, mamao);
         System.out.println("A quantidade de itens somados: "+total);
 
         //Chamando a soma dos itens double
