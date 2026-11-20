@@ -17,11 +17,11 @@ public class Exercicio2 {
 
         media = (nota1 + nota2 + nota3) /3;
 
-        // primeira forma de formatar a saida de dados double
+        // primeira forma de formatar a saída de dados double
         DecimalFormat formatado = new DecimalFormat("#.##");
         System.out.println("o resultado formatado: " + formatado.format(media));
 
-        // segunda forma de formatar a saida de dados double
+        // segunda forma de formatar a saída de dados double
         System.out.printf("A média da nota do semestre: %.1f ",media);
 
 

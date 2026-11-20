@@ -15,7 +15,9 @@ public class Exercicio6 {
         antecessor = receberNumero-1;
         sucessor = receberNumero +1;
 
-        System.out.println("e esse é o antes " + antecessor + "\nesse é o número digitado: " + receberNumero + "\no número depois dele é " + sucessor);
+        System.out.println("e esse é o antes " + antecessor
+                + "\nesse é o número digitado: " + receberNumero
+                + "\no número depois dele é " + sucessor);
 
         numero.close();
     }

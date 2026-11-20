@@ -15,7 +15,8 @@ public class Exercicio9 {
 
         double valorPagar = valorCompra - (valorCompra * desconto) / 100.0;
 
-        System.out.printf("Esse é o que vou pagar: R$ %.2f", valorPagar);
+        //System.out.printf("Esse é o que vou pagar: R$ %.2f", valorPagar);
+        System.out.println("Esse é o que vou pagar: "+ String.format("R$ %.2f", valorPagar));
 
         teclado.close();
     }

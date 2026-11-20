@@ -15,8 +15,9 @@ public class Exercicio8 {
 
         centimetro = metro * 100;
 
-        System.out.println("A metragem digitada: " + metro + "m"+ " convertido em centimetros: " + centimetro + "cm");
-        System.out.printf(" convertido em centimetros: %.2f" , centimetro );
+        System.out.println("A metragem digitada: " + metro + "m"+ " convertido em centimetros: " + centimetro + " cm");// não precisa de formatação
+     // System.out.printf("convertido em centimetros: %.2f", centimetro ); //2 zeros após a vírgula mais usado em moedas
+        System.out.println("convertido em centimetros: " + String.format("%.1f", centimetro) + " cm" );//utilizado em metragem 1 casa após a vírgula para centimetro
 
 
         teclado.close();

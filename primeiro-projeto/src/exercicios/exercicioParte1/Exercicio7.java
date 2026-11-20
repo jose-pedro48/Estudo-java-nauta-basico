@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio7 {
     public static void main(String[] args) {
-        // Receber a base e altura de um retângulo e caucular a área
+        // Receber a base e altura de um retângulo e calcular a área
         Scanner teclado = new Scanner(System.in);
 
         double base;
@@ -19,11 +19,11 @@ public class Exercicio7 {
         // O loop continua ENQUANTO a resposta for 'S' (Maiúscula)
         while (resposta == 'S') {
 
-            System.out.print("\nescolha qual medida você vai usar: \n"
-                    +"usar 1 = Centimetro \n"
-                    +"uar 2 = metro \n"
-                    +"usar 3 = quilometros \n");
-            System.out.println("Digita a opção: ");
+            System.out.println("escolha qual medida você vai usar: "
+                    +"\n1 = Centímetro "
+                    +"\n2 = metro "
+                    +"\n3 = quilômetros");
+            System.out.print("Digita a opção: ");
             opcao = teclado.nextInt();
 
             System.out.println("Digite o número base: ");
@@ -36,15 +36,15 @@ public class Exercicio7 {
             switch(opcao) {
 
                 case 1:
-                    System.out.print("A área do retangulo é: " + area + " Cm²");
+                    System.out.print("A área do retângulo é: " + area + " Cm²");
                     break;
 
                 case 2:
-                    System.out.print("A área do retangulo é: " + area + " m²");
+                    System.out.print("A área do retângulo é: " + area + " m²");
                     break;
 
                 case 3:
-                    System.out.print("A área do retangulo é: " + area + " k²");
+                    System.out.print("A área do retângulo é: " + area + " k²");
                     break;
                 default:
                     System.out.println("O número digitado incorreto! ");
